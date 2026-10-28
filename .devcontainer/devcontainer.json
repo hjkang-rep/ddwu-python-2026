@@ -1,13 +1,16 @@
 {
   "name": "DDWU Python 2026",
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
-  "hostRequirements": { "cpus": 2 },
+  "hostRequirements": {
+    "cpus": 2
+  },
   "postCreateCommand": "pip install --user pandas==3.1.0 openpyxl matplotlib",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+        "openai.chatgpt"
       ],
       "settings": {
         "python.terminal.executeInFileDir": true,
