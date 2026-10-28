@@ -1,20 +1,27 @@
 {
   "name": "DDWU Python 2026",
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
-  "hostRequirements": {
-    "cpus": 2
-  },
-  "postCreateCommand": "pip install --user pandas==3.1.0 openpyxl matplotlib",
+  "hostRequirements": { "cpus": 2 },
+  "postCreateCommand": "pip install --user pandas==3.1.0 openpyxl matplotlib ipykernel",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "charliermarsh.ruff",
+        "usernamehw.errorlens",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.datawrangler",
+        "mechatroner.rainbow-csv",
+        "GrapeCity.gc-excelviewer",
         "GitHub.copilot-chat",
         "openai.chatgpt"
       ],
       "settings": {
+        "files.autoSave": "afterDelay",
         "python.terminal.executeInFileDir": true,
-        "files.autoSave": "afterDelay"
+        "[python]": { "editor.defaultFormatter": "charliermarsh.ruff", "editor.formatOnSave": false }
       }
     }
   }
