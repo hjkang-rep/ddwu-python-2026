@@ -6,7 +6,7 @@
 
 1. GitHub에 로그인합니다.
 2. 이 페이지 위쪽의 초록색 **Code** 단추 → **Codespaces** 탭 → **Create codespace on main**을 누릅니다.
-3. 2~3분 기다리면 브라우저 안에 VS Code가 열립니다. 파이썬 3.13과 pandas · openpyxl · matplotlib이 설치되어 있습니다.
+3. 2~3분 기다리면 브라우저 안에 VS Code가 열립니다. 파이썬 3.13과 pandas · openpyxl · matplotlib · pillow가 설치되어 있습니다.
 4. 다음 수업부터는 <https://github.com/codespaces> 에서 만들어 둔 codespace를 눌러 엽니다. 새로 만들지 않습니다.
 
 ## 폴더
@@ -19,6 +19,7 @@
 | `week09/` | 9주차 실습 파일 (`매출대장_9월.xlsx`, 예제 코드 `p01`~`p11`, `practice.py`) |
 | `week10/` | 10주차 예제 코드 (`p01_read.py` ~ `p16_years.py`) |
 | `week11/` | 11주차 예제 코드 (`p01_read_raw.py` ~ `p09_compare.py`: 원자료 정리, `p10_first_line.py` ~ `p21_holding.py`: 그래프) |
+| `week12/` | 12주차 예제 코드 (`p01_new_column.py` ~ `p11_rank.py`: 재무 지표 계산, `p12_to_excel.py` ~ `p21_check_report.py`: openpyxl 엑셀 보고서. `p20_industry_report.py`는 업종 보고서 엑셀을 만듦) |
 | `내작업/` | 여러분이 만든 파일을 두는 곳 |
 
 ## 실행
@@ -26,6 +27,8 @@
 파일을 열고 오른쪽 위 실행 단추(▷)를 누르거나, 터미널에서 `cd week09` 뒤 `python p01_read.py`를 실행합니다.
 
 그래프 예제는 그림을 `내작업/` 폴더에 PNG 파일로 저장합니다. 실행 단추로 돌리면 `plt.show()`의 창은 뜨지 않으므로, 탐색기에서 저장된 파일을 눌러 봅니다.
+
+엑셀 보고서 예제(`week12/p12` ~ `p21`)는 결과를 `내작업/` 폴더에 `.xlsx`로 저장합니다. 값은 탐색기에서 파일을 눌러 볼 수 있고, 열 너비 · 색 · 표시 형식 · 그림은 파일을 오른쪽 클릭 → Download로 내려받아 엑셀에서 확인합니다. `p15` · `p16`은 앞 번호 예제가 만든 파일을 열므로 번호 순서대로 실행합니다(`p14` → `p15` → `p16`, `p17` → `p18` → `p19`, `p20` → `p21`). 엑셀 파일에 그림을 넣는 `openpyxl.drawing.image.Image`는 pillow를 씁니다. 예전에 만든 codespace에도 matplotlib과 함께 이미 설치되어 있습니다.
 
 ## 설치된 도구 (codespace를 만들 때 자동 설치)
 
