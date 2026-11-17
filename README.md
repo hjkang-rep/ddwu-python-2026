@@ -19,7 +19,7 @@
 | `week09/` | 9주차 실습 파일 (`매출대장_9월.xlsx`, 예제 코드 `p01`~`p11`, `practice.py`) |
 | `week10/` | 10주차 예제 코드 (`p01_read.py` ~ `p16_years.py`) |
 | `week11/` | 11주차 예제 코드 (`p01_read_raw.py` ~ `p09_compare.py`: 원자료 정리, `p10_first_line.py` ~ `p21_holding.py`: 그래프) |
-| `week12/` | 12주차 예제 코드 (`p01_new_column.py` ~ `p11_rank.py`: 재무 지표 계산, `p12_to_excel.py` ~ `p21_check_report.py`: openpyxl 엑셀 보고서. `p20_industry_report.py`는 업종 보고서 엑셀을 만듦) |
+| `week12/` | 12주차 수업 코드 `m1_calc.py`(영업이익률 열 만들기) · `m2_filter.py`(나눗셈이 이상한 행 거르기) · `m3_rank.py`(내 업종 영업이익률 상위 5개를 `내작업/w12_내업종.xlsx`로 저장) · `find_industry.py`(회사 이름으로 업종 이름 찾기). 더 볼 예제: `p01_new_column.py` ~ `p11_rank.py`(재무 지표 계산), `p12_to_excel.py` ~ `p21_check_report.py`(openpyxl 엑셀 보고서) |
 | `내작업/` | 여러분이 만든 파일을 두는 곳 |
 
 ## 실행
