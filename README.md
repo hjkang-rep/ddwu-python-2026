@@ -20,6 +20,7 @@
 | `week10/` | 10주차 예제 코드 (`p01_read.py` ~ `p16_years.py`) |
 | `week11/` | 11주차 예제 코드 (`p01_read_raw.py` ~ `p09_compare.py`: 원자료 정리, `p10_first_line.py` ~ `p21_holding.py`: 그래프) |
 | `week12/` | 12주차 수업 코드 `m1_calc.py`(영업이익률 열 만들기) · `m2_filter.py`(나눗셈이 이상한 행 거르기) · `m3_rank.py`(내 업종 영업이익률 상위 5개를 `내작업/w12_내업종.xlsx`로 저장) · `find_industry.py`(회사 이름으로 업종 이름 찾기). 더 볼 예제: `p01_new_column.py` ~ `p11_rank.py`(재무 지표 계산), `p12_to_excel.py` ~ `p21_check_report.py`(openpyxl 엑셀 보고서) |
+| `week13/` | 13주차 수업 코드 `f1_function.py`(함수 top5 정의와 부르기) · `f2_three.py`(함수를 세 번 불러 시트 세 장짜리 `내작업/w13_세업종.xlsx` 저장) · `s1_summary.py`(업종 요약 함수 summary) · `report.py`(함수 두 개로 시트 두 장짜리 `내작업/w13_보고서.xlsx` 저장) |
 | `내작업/` | 여러분이 만든 파일을 두는 곳 |
 
 ## 실행
